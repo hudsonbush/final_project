@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hudson Bush - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5a61c6852a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo">
+</head>
+
+<div class="main-container" id="main">
+    <body>
+
+        <div class="header-fake">
+            <div class="title-name">Hudson Bush</div>
+        
+            <div class="nav-bar" id="navBar">
+                <div class="nav-toggle" id="navToggle">
+                    <span class="nav-span"></span>
+                    <span class="nav-span"></span>
+                    <span class="nav-span"></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li class="home-link"> <a class="homer-link" href="index.html">Home</a></li>
+                    <li class="projects-link"> <a class="current-page projectser-link" href="projects.html">Projects</a></li>
+                    <li class="about-link"> <a class="abouter-link" href="about.html">About</a></li>
+                </ul>
+            </div>
+            
+        </div>
+            <!-- <nav>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+            </nav> -->
+        <div class="dark-mode-container">
+            <button class="dark-mode-toggle" id="toggle-dark">Turn on <span class="current-light-mode">Light</span> Mode</button>
+        </div>
+        
+            <h1 class="page-title pgt-anim">Recent <div class="special-word">Projects</div></h1>
+        <div class="projects">
+            <div class="project-card">
+                <h2 class="project-title">Office Hours Web Queue Server</h2>
+                <img src="images/python.svg" alt="python logo" id="project-icon">
+                <p class="project-text">Built a serverless backend for a web application mimicking a taxi dispatch service using AWS Lambda, S3,
+                    DynamoDB, API Gateway, and other core AWS services.</p>
+            </div>
+
+            <div class="project-card">
+                <h2 class="project-title">Taxi Dispatch Service</h2>
+                <i class="fa-brands fa-aws" id="project-icon"></i>
+                <p class="project-text">Built a serverless backend for a web application mimicking a taxi dispatch service using AWS Lambda, S3,
+                    DynamoDB, API Gateway, and other core AWS services.</p>
+            </div>
+            
+            <div class="project-card">
+                <h2 class="project-title">SimpleQL</h2>
+                <img src="images/c.svg" alt="c++ logo" id="project-icon">
+                <p class="project-text">Developed a program emulating a relational database with an interface supporting 8 different commands for table
+                    creation, manipulation, and index generation. Implemented functionality for conditional queries and rapid data access through the creation of both binary search
+                    tree and hash table indexes</p>
+            </div>
+
+            <div class="project-card">
+                <h2 class="project-title">Spotipy Data Collection</h2>
+                <img src="images/python.svg" alt="python logo" id="project-icon">
+                <p class="project-text">Connected to the Spotify API to gather data and build "advanced metrics" that revealed
+                    interesting data that was not readily available through the API. Stored the data to MySQL data base and visualized
+                    the data using MATPLOTLib.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h2 class="project-title">Natural Language Processing and Machine Learning</h2>
+                <img src="images/c.svg" alt="c++ logo" id="project-icon">
+                <p class="project-text">Developed a program that used machine learning to identify the subject of blog posts.
+                     Utilized binary search trees and recursive functions to build a classifier
+                      that could be trained to discern the subject of
+                    a course related post.
+                </p>
+            </div>
+            
+            <div class="project-card">
+                <h2 class="project-title">GANT Chart Style Project Management</h2>
+                <img src="images/javascript.svg" alt="javascript logo" id="project-icon">
+                <p class="project-text">Created a web app that would allow for the simplification of project and task management. 
+                    Implemented the app using HTML, CSS, and Javascript.
+                </p>
+            </div>
+
+        </div>
+
+    
+        <buttton class="move-btn" id="projectsToAbout">Still want to see more?</buttton>
+        
+        
+        
+        <script src="js/projects.js"></script>
+    </body>
+</div>
+
+</html>
